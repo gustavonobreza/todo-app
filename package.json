@@ -1,0 +1,10 @@
+{
+  "name": "todo-app",
+  "version": "0.0.1",
+  "description": "A simple todo app",
+  "main": "dist/index.js",
+  "repository": "git+https://gustavonobreza@github.com/todo-list.git",
+  "author": "Gustavo Alexandre Nobre Mesquita <gnobremesquita@gmail.com>",
+  "license": "MIT",
+  "private": true
+}
