@@ -2,10 +2,14 @@
 
 ### How Install
 
-1. Change the boilerplate
-    
+1. Installation after clonned
+   
 ```bash
+  # Env variables
   mv .env.example .env
+
+  # Init DB
+  docker-compose up -d
 ```
 
 2. Install the deps
