@@ -7,6 +7,12 @@
   "author": "Gustavo Alexandre Nobre Mesquita <gnobremesquita@gmail.com>",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "start": "node dist/index",
+    "build": "tsc",
+    "dev": "ts-node src/index",
+    "dev:watch": "ts-node-dev src/index"
+  },
   "devDependencies": {
     "@types/node": "^17.0.12",
     "prisma": "^3.8.1",
@@ -15,6 +21,7 @@
   },
   "dependencies": {
     "@prisma/client": "3.8.1",
-    "fastify": "^3.27.0"
+    "fastify": "^3.27.0",
+    "ts-node-dev": "^1.1.8"
   }
 }
