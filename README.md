@@ -6,7 +6,7 @@
    
 ```bash
   # Env variables
-  mv .env.example .env
+  cp .env.example .env
 
   # Init DB
   docker-compose up -d
