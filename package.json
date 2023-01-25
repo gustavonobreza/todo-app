@@ -1,0 +1,20 @@
+{
+  "name": "todo-app",
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.1"
+  },
+  "homepage": "https://github.com/gustavonobreza/todo-app#readme",
+  "license": "UNLICESEND",
+  "author": {
+    "name": "Gustavo Alexandre Nobre Mesquita",
+    "url": "https://github.com/gustavonobreza/todo-app/issues",
+    "email": "gustavoalexandredev@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gustavonobreza/todo-app.git"
+  }
+}
